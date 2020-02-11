@@ -31,6 +31,8 @@ Acesta este un tabel
 |----|----------------|
 | xsss| sasdsd|
 
-[aici e o imagine](http://data.whicdn.com/images/64832980/original.jpg)
+[aici e o link](http://data.whicdn.com/images/64832980/original.jpg)
+
+![aici e o imagine](http://data.whicdn.com/images/64832980/original.jpg)
 
 
