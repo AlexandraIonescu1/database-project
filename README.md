@@ -28,7 +28,7 @@ Acesta este **bold**
 Acesta este un tabel
 
 | head1 | head2|
---------------------
+|----|----------------|
 | xsss| sasdsd|
 
 [aici e o imagine](http://data.whicdn.com/images/64832980/original.jpg)
