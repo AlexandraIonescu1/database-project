@@ -1,38 +1,40 @@
-# database-project
-database-project
+#Chapter 1
 
-# Capitolul 1
-
-Lista cu buline:
-
-- crocodil
-- gugustiuc
-
-Lista cu iterator:
-
-1. eu sunt unu
-2. eu sunt doi
-
-Niste cod
-
-```csharp
-public class Crocodil {
-public Lungime {get; set}
-}
-```
-
-## Subcapitolul 1.1
-
-Acesta este **bold** 
-
-Acesta este un tabel
-
-| head1 | head2|
-|----|----------------|
-| xsss| sasdsd|
-
-[aici e o link](http://data.whicdn.com/images/64832980/original.jpg)
-
-![aici e o imagine](http://data.whicdn.com/images/64832980/original.jpg)
-
+Steps:
+1.Open SQL Server Manager Studio
+2.Connect to Server
+3.Click Right on Databases
+![img1](C:\Users\Administrator\Pictures\db demo\1)
+4.Add mdf file of database
+![img2](C:\Users\Administrator\Pictures\db demo\2)
+![img1](C:\Users\Administrator\Pictures\db demo\3)
+5.Open Visual Studio
+6.Create A New Project
+7.Search for Database Project
+![img4](C:\Users\Administrator\Pictures\db demo\4.1)
+8. Click on Next
+9.After Creating, Import Database 
+![img5](C:\Users\Administrator\Pictures\db demo\5)
+10.Select Connection
+![img6](C:\Users\Administrator\Pictures\db demo\6)
+11. Show Connection properties
+12. And Then Complete with your credentials
+![img7](C:\Users\Administrator\Pictures\db demo\7)
+13. Select with your Database
+![img8](C:\Users\Administrator\Pictures\db demo\8)
+14.Click Ok and Wait for several minutes
+15.When it's done ,click finish
+16.On the right side you'll have database connection
+![img9](C:\Users\Administrator\Pictures\db demo\9)
+17. Create a folder on your pc which is connected to your git 
+18. Click right on your project and then click Add to Source Control
+19.Click View on the top bar of Visual Studio
+![img10](C:\Users\Administrator\Pictures\db demo\10)
+20.Click on Managing Connections
+![img11](C:\Users\Administrator\Pictures\db demo\11)
+21. Select your repository on git
+22.Then click on Changes
+23. Add a specific comment
+![img12](C:\Users\Administrator\Pictures\db demo\12)
+24. And then click Commit All
 
