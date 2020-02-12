@@ -86,4 +86,4 @@ Steps:
     
 29.  To create the script you need to click right on the project and click on publish 
   
-[img16](db_demo/16.png)
+![img16](db_demo/16.png)
