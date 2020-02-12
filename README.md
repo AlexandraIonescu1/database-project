@@ -78,4 +78,12 @@ Steps:
 
 26. And then click on push
 
+27. Add a table 
+    
+![img15](db_demo/15.png)
 
+28.  Commit the changes
+    
+29.  To create the script you need to click right on the project and click on publish 
+  
+[img16](db_demo/16.png)
