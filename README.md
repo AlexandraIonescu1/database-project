@@ -10,7 +10,7 @@ Steps:
 
 4. Add mdf file of database
 
-! [img2] (db_demo/2.png)
+![img2](db_demo/2.png)
 
 ![img3](db_demo/3.png)
 
@@ -20,7 +20,7 @@ Steps:
 
 7. Search for Database Project
 
-! [img4] (db_demo/4.png)
+![img4](db_demo/4.png)
 
 8. Click on Next
 
