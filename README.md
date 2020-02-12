@@ -1,13 +1,12 @@
-#Chapter 1
+# Chapter 1
 
 Steps:
-1.Open SQL Server Manager Studio
 
-2.Connect to Server
+1. Open SQL Server Manager Studio
+2. Connect to Server
+3. Click Right on Databases
 
-3.Click Right on Databases
-
-! [img1] (C:\projects\database-project\db demo\1)
+![img1](db_demo/1.png)
 
 4.Add mdf file of database
 
