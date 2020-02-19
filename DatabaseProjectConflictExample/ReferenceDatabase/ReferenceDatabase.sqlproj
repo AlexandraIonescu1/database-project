@@ -64,4 +64,19 @@
   <ItemGroup>
     <Build Include="dbo\Views\ErrorLogView.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AdventureWorks2014Imp\AdventureWorks2014Imp.sqlproj">
+      <Name>AdventureWorks2014Imp</Name>
+      <Project>{0c124798-7fc9-487e-9a4f-8afb5f835110}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>AdventureWorks2014Imp</DatabaseSqlCmdVariable>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="AdventureWorks2014Imp">
+      <DefaultValue>AdventureWorks2014Imp</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>

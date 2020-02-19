@@ -1,7 +1,7 @@
 ﻿CREATE VIEW dbo.ErrorLogView
 AS
 SELECT ErrorLogID, ErrorTime, UserName, ErrorNumber, ErrorSeverity, ErrorState, ErrorProcedure, ErrorLine, ErrorMessage
-FROM     AdventureWorks2014.dbo.ErrorLog
+FROM     [$(AdventureWorks2014Imp)].dbo.ErrorLog
 
 GO
 EXECUTE sp_addextendedproperty @name = N'MS_DiagramPane1', @value = N'[0E232FF0-B466-11cf-A24F-00AA00A3EFFF, 1.00]
