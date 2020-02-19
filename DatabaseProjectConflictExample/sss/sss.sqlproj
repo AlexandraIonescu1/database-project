@@ -3,16 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>DatabaseProjectConflictExample</Name>
+    <Name>sss</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{80570a9c-b1b8-43fc-a428-15910a38e42c}</ProjectGuid>
+    <ProjectGuid>{943265ec-97b0-4d60-bf3d-14bb29f1b012}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>DatabaseProjectConflictExample</RootNamespace>
-    <AssemblyName>DatabaseProjectConflictExample</AssemblyName>
+    <RootNamespace>sss</RootNamespace>
+    <AssemblyName>sss</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -65,13 +65,6 @@
     <Build Include="dbo\Views\AdventureErrorLogView.sql" />
   </ItemGroup>
   <ItemGroup>
-    <ArtifactReference Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac</HintPath>
-      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
-      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
-    </ArtifactReference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AdventureWorks2014Import\AdventureWorks2014Import.sqlproj">
       <Name>AdventureWorks2014Import</Name>
       <Project>{439ba355-23c4-4072-babf-2e33d5dd8799}</Project>
@@ -79,24 +72,11 @@
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseSqlCmdVariable>AdventureWorks2014Import</DatabaseSqlCmdVariable>
     </ProjectReference>
-    <ProjectReference Include="..\AdventureWorks2014Import\AdventureWorks2014Import.sqlproj">
-      <Name>AdventureWorks2014Import</Name>
-      <Project>{439ba355-23c4-4072-babf-2e33d5dd8799}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="AdventureWorks2014">
-      <DefaultValue>AdventureWorks2014</DefaultValue>
-      <Value>$(SqlCmdVar__3)</Value>
-    </SqlCmdVariable>
     <SqlCmdVariable Include="AdventureWorks2014Import">
       <DefaultValue>AdventureWorks2014Import</DefaultValue>
-      <Value>$(SqlCmdVar__4)</Value>
-    </SqlCmdVariable>
-    <SqlCmdVariable Include="OtherServer">
-      <DefaultValue>EDU/EDU</DefaultValue>
-      <Value>$(SqlCmdVar__2)</Value>
+      <Value>$(SqlCmdVar__1)</Value>
     </SqlCmdVariable>
   </ItemGroup>
 </Project>
