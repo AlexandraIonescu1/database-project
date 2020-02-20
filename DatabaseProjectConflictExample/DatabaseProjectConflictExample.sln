@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ReferenceDatabase", "Refere
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorks2014Imp", "AdventureWorks2014Imp\AdventureWorks2014Imp.sqlproj", "{0C124798-7FC9-487E-9A4F-8AFB5F835110}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseView", "DatabaseView\DatabaseView.sqlproj", "{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{0C124798-7FC9-487E-9A4F-8AFB5F835110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C124798-7FC9-487E-9A4F-8AFB5F835110}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C124798-7FC9-487E-9A4F-8AFB5F835110}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ADE3F8-B798-48D5-AE07-78D3BF58DB56}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

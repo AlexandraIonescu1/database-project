@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [EDU\ssas_user]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+
